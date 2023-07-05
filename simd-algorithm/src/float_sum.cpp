@@ -1,7 +1,7 @@
 #include <immintrin.h>
 #include <simd-algorithm/float_sum.h>
 
-namespace simd_playground {
+namespace simd_algorithm {
 
     float vector_sum(float const* data, size_t n) {
         __m128 var1 = _mm_setzero_ps();
